@@ -888,10 +888,6 @@
   .navbar-fixed-bottom {
     margin-top: 0px;
   }
-  .navbar-fixed-top .navbar-inner,
-  .navbar-fixed-bottom .navbar-inner {
-    padding: 5px;
-  }
   .navbar .container {
     width: auto;
     padding: 0;
@@ -923,7 +919,6 @@
   }
   .nav-collapse .nav > li > a,
   .nav-collapse .dropdown-menu a {
-    padding: 9px 15px;
     font-weight: bold;
     color: #777777;
   }
@@ -977,6 +972,9 @@
   }
   .nav-collapse .nav > li > .dropdown-menu:before,
   .nav-collapse .nav > li > .dropdown-menu:after {
+    display: none;
+  }
+  .social li {
     display: none;
   }
   .nav-collapse .navbar-form,
