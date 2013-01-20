@@ -2,6 +2,9 @@
 layout: default
 ---
 <h3>{{ page.title }}</h3>
+<p class="author">
+  <span class="date">{{page.date | date_to_long_string}}</span>
+</p>
 {{ content }}
 <div id="disqus_thread"></div>
 <script type="text/javascript">
