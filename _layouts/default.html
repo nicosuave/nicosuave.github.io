@@ -21,14 +21,14 @@
             <ul class="nav topics">
               <li><a href="#projects">Projects</a></li>
               <li><a href="#notes">Notes</a></li>
-              <li><a href="/pdfs/resume.pdf">Resume</a></li>
               <li><a href="#fun">Fun</a></li>
+              <li><a href="/pdfs/resume.pdf">About</a></li>              
             </ul>
             <ul class="nav social pull-right">
-              <li><a href="http://github.com/nicoritschel">Github</a></li>                                
-              <li><a href="http://twitter.com/nicoritschel">Twitter</a></li> 
-              <li><a href="http://www.linkedin.com/profile/view?id=93588951">Linkedin</a></li>                           
-              <li><a href="http://www.last.fm/user/nicoritschel">Last.fm</a></li>          
+              <li><a href="http://github.com/nicoritschel"><i class="icon-github icon-large"></i></a></li>
+              <li><a href="http://www.linkedin.com/profile/view?id=93588951"><i class="icon-linkedin-sign icon-large"></i></a></li>                                         
+              <li><a href="http://twitter.com/nicoritschel"><i class="icon-twitter icon-large"></i></a></li> 
+<!--               <li><a href="http://www.last.fm/user/nicoritschel"><i class="icon-lastfm icon-large"></i></a></li> -->
             </ul>            
           </div>
           <!--/.nav-collapse -->
@@ -124,11 +124,10 @@
 
 </script>
 <script>
-$(document).ready(function(){
-  $.getJSON('http://proxy.nicoritschel.com/instagram&callback=?', function(data) {
-  console.log(data);
-  alert(data);
-})});
+var data;
+$(function(){
+$.ajax({ 'url': "http://proxy.nicoritschel.com/instagram", 'dataType': "jsonp", 'success': function(data, status, jq) { data = data; alert(data);} });
+});
 </script>
 
 </html>
