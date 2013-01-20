@@ -1,0 +1,98 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2012 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[10pt,letterpaper,sans]{moderncv}   % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{classic}                        % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{purple}                          % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}    % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+%\usepackage[utf8]{inputenc}                  % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                         % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}           % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}      % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\firstname{Nico}
+\familyname{Ritschel}
+\email{nritsche@uci.edu}                          % optional, remove the line if not wanted
+\extrainfo{l}       % optional, remove the line if not wanted
+\extrainfo{\href{http://github.com/nicoritschel}{github.com/nicoritschel}}
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                     % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{Education}
+\cventry{2014 (Expected)}{Informatics}{University of California}{Irvine}{}{Software Engineering}
+
+\section{Experience}
+\cventry{Sep. 2012--\\Present}{Software Engineer Intern}{Hedgeye Risk Management}{Dana Point}{CA}
+{ 
+I work on an Agile team with a 1 week release cycle working on a legacy Rails 2 application and a handful of complementary Rails 3 applications. My primary duties include fixing bugs and implementing new features, both internal and client-facing. I also configured a Jenkins continuous integration server, and time-savers like Github's Janky, Hubot (I even wrote an official script, see Github). Tools and technologies used: Ruby, HAML, Javascript, Coffeescript, node.js, SalesForce API, Paypal API, Github, Pivotal Tracker. 
+}
+
+\cventry{Aug. 2012--\\Present}{Undergraduate Research Assistant}{Software Design and Collaboration Library, University of California}{Irvine}{CA}{I added adding domain-specific (air traffic design) features for NATS to sketching software, Calico \href{http://sdcl.ics.uci.edu/research/calico/}{(http://sdcl.ics.uci.edu/research/calico/)}. I implemented a geographical distance calculation, utilitizing the Haversine formula, along with a series of other requested tools. Tools and technologies used: Eclipse, Java, Swing, Github. }
+
+\cventry{Sep. 2011--\\Dec. 2011}{Lab Tutor}{University of California}{Irvine}{CA}{I assisted students working in lab with weekly test-driven, pair-programming assignments in Scheme, a LISP derivative.}
+
+\cventry{June 2010--\\Sep. 2010}{Web Developer Intern}{AECOM}{Los Angeles}{CA}{I joined the waterfall-based web team, learned a bit about an enterprise-grade Content Management System, Vignette and JSP.I developed a survey/poll script for use in a corporate intranet site for 50,0000 global employees. I also assisted with load-balance testing and aided in optimization of the Vignette CMS. Tools and technologies used: JSP, Oracle RDBMS, HTML, CSS, Javascript, jQuery.
+}
+
+\section{Technical Interests}
+\cvitem{Languages}{Ruby, Java, Javascript, Coffeescript, Python, PHP, Scheme}
+\cvdoubleitem{Unix}{OS X, Debian}{Relational DB}{MySQL, PostgreSQL, MongoDB}
+\cvdoubleitem{Back-end}{Rails, Sinatra, Node.JS, Grape}{Front-end}{HAML, SASS, Backbone.js, jQuery}
+
+\section{Projects}
+\cvitem{Centro} { While I was configuring a personal site for my blog and to showcase my work, I noticed a market gap in a no hassle solution for blogs and portfolio sites for developers. Centro was born out of sheer necessity, much of it extracted from my personal site. Tools and technologies used: Jekyll, Bootstrap, jQuery }
+\cvitem{Sqaqr}{ I participated in Rails Rumble 2012, with a modest project. Myself and a partner, Chandra Bhavanasi, developed a web-based step sequencer for music production. We had planned to implement some EventMachine-based collaboration features, but found ourselves short of time due to unforseen problems with deploying on a new configuration. }
+
+
+
+% Publications from a BibTeX file without multibib
+%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{publications}                   % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}              % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}              % 'publications' is the name of a BibTeX file
+
+\clearpage
+
+%\clearpage\end{CJK*}                         % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
+\end{document}
+
+
+%% end of file `template.tex'.
