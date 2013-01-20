@@ -8099,7 +8099,7 @@ a.badge:hover {
 }
 .social a {
   font-size: 12px;
-  font-color: red;
+  font-weight: 800;
 }
 .topics a {
   font-weight: 300;
