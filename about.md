@@ -4,7 +4,7 @@ title: About Nico
 ---
 <h2>{{ page.title }}</h2>
 
-I'm a software developer. I study Informatics with a specialization in Software Engineering at UC Irvine, live in Irvine, and work at Hedgeye. I strongly believe in no frills, to-the-point user experiences. I always try to keep learning with an open mind.
+I'm a software developer. I study Informatics with a specialization in Software Engineering at UC Irvine, live in Irvine, and work at Hedgeye. I strongly believe in no frills, to-the-point user experiences. I try to keep an open mind, and I try to keep myself busy.
 
 See my [résumé](/pdfs/resume.pdf "Résumé, Nico Ritschel")
 

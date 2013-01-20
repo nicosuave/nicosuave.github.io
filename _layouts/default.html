@@ -36,43 +36,12 @@
       </div>
     </div>
 
-    <div class="hero-unit cover-image">
-      <div id="container">
-        <div id="row">
-          <div id="span12">
-            <div id="myCarousel" class="carousel slide">
-              <!-- Carousel items -->
-              <div class="carousel-inner">
-                <div class="active item">
-                  <ul class="instagram-bar">
-                    <li><img src="http://distilleryimage3.s3.amazonaws.com/732cfb50625511e2b2f422000a9f1255_7.jpg" height="200px" width="200px" /></li>
-                    <li><img src="http://distilleryimage7.s3.amazonaws.com/d098dc1c60ea11e2a1c022000a1fb718_7.jpg" height="200px" width="200px" /></li>
-                    <li><img src="http://distilleryimage2.s3.amazonaws.com/304af4b2605311e29dbc22000a1f9e59_7.jpg" height="200px" width="200px" /></li>
-                    <li><img src="http://distilleryimage0.s3.amazonaws.com/dba7e3fe5f8d11e2a07e22000a1f9a28_7.jpg" height="200px" width="200px" /></li>
-                  </ul>
-                </div>
-                <div class="item">
-                  <ul class="instagram-bar">
-                    <li><img src="http://distilleryimage8.s3.amazonaws.com/6e3e0f3e5e2311e28cc022000a1fb854_7.jpg" height="200px" width="200px" /></li>
-                    <li><img src="http://distilleryimage3.s3.amazonaws.com/3562960e5cec11e2852a22000a9e0709_7.jpg" height="200px" width="200px" /></li>
-                    <li><img src="http://distilleryimage2.s3.amazonaws.com/9a00128e5c3911e2b55422000a9f1377_7.jpg" height="200px" width="200px" /></li>
-                    <li><img src="http://distilleryimage11.s3.amazonaws.com/c6bcbaba5abe11e29ad022000a1f9a79_7.jpg" height="200px" width="200px" /></li>
-                  </ul>                
-                </div>
-<!--                 <div class="item">
-                  <ul class="instagram-bar">
-                    <li><img src="http://distilleryimage3.s3.amazonaws.com/732cfb50625511e2b2f422000a9f1255_7.jpg" height="200px" width="200px" /></li>
-                    <li><img src="http://distilleryimage7.s3.amazonaws.com/d098dc1c60ea11e2a1c022000a1fb718_7.jpg" height="200px" width="200px" /></li>
-                    <li><img src="http://distilleryimage2.s3.amazonaws.com/304af4b2605311e29dbc22000a1f9e59_7.jpg" height="200px" width="200px" /></li>
-                    <li><img src="http://distilleryimage0.s3.amazonaws.com/dba7e3fe5f8d11e2a07e22000a1f9a28_7.jpg" height="200px" width="200px" /></li>
-                  </ul>                
-                </div> -->
-              </div>
-            </div>
-          </div>
-        </div> 
-      </div>     
-    </div>    
+    {% if page.header_image == null %}
+      {% include instagram.html %}
+    {% else %}
+      {% include custom_header.html %}
+    {% endif %}
+
     <div class="container">
       <div class="row">
         <div class="span12">
