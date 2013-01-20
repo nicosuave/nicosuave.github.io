@@ -1,4 +1,4 @@
-safe:        false
+safe:        true
 auto:        false
 server:      false
 server_port: 4000
@@ -13,7 +13,9 @@ future:      true
 lsi:         false
 pygments:    false
 markdown:    maruku
-permalink:   date
+permalink:   /:title.html
+
+paginate: 10
 
 maruku:
   use_tex:    false
