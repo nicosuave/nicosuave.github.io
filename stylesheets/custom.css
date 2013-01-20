@@ -29,3 +29,12 @@
 	display: inline;
 	font-size: 14px;
 }
+.first-name {
+	font-weight: 100;
+	text-transform: uppercase;
+}
+
+.last-name {
+	font-weight: 300;
+	text-transform: uppercase;	
+}
