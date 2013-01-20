@@ -8697,12 +8697,11 @@ a.badge:hover {
   font-weight: 300;
 }
 .cover-image {
-  height: 180px;
-  padding-top: 44px;
-  padding-bottom: 34px;
+  height: 300px;
+  padding: 0px;
 }
 .instagram-bar {
-  width: 800px;
+  width: 1200px;
   margin: auto;
   font-size: 0;
 }
