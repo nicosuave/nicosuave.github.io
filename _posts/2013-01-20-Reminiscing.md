@@ -13,6 +13,6 @@ It was ahead of its time. This was during a a pre-Facebook era. I think that "Ni
 
 At one point, I even figured, why not add some Adsense ads? Now, I won't speculate on the legitimacy of the clicks on those ads, but I eventually did receieve a $150 check from Google. I was excited that I actually made money online. I think I spent my winnings on a 120GB Western Digital Black drive (seems like nothing now, huh?). At the time, I was very interested in building computers, and things like fast hard drives tickled my fancy.
 
-Now, things like Ruby and clean code tickle my fancy. I overcame that teenage fear, and now I rediscovered my passion. It took 9 years, but things have now come full circle, and I am glad that NicoRitschel.com is back.
+Now, things like Ruby and clean code tickle my fancy, thanks to a rich open source/hacker community that I call my own. I overcame that teenage fear, and now I rediscovered my passion. It took 9 years, but things have now come full circle, and I am glad that NicoRitschel.com is back. 
 
 (However, I am running Twitter Bootstrap on top of Jekyll this time around)
