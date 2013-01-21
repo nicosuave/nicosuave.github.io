@@ -10,6 +10,24 @@
 @-ms-viewport {
   width: device-width;
 }
+.pull-right {
+  float: right;
+}
+.pull-left {
+  float: left;
+}
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+.invisible {
+  visibility: hidden;
+}
+.affix {
+  position: fixed;
+}
 .clearfix {
   *zoom: 1;
 }
@@ -721,6 +739,9 @@
   input.span1, textarea.span1, .uneditable-input.span1 {
     width: 28px;
   }
+  .social {
+    float: right;
+  }
 }
 @media (max-width: 767px) {
   body {
@@ -972,9 +993,6 @@
   }
   .nav-collapse .nav > li > .dropdown-menu:before,
   .nav-collapse .nav > li > .dropdown-menu:after {
-    display: none;
-  }
-  .social li {
     display: none;
   }
   .nav-collapse .navbar-form,
