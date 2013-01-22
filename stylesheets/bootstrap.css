@@ -8697,7 +8697,10 @@ a.badge:hover {
 .cover-image {
   padding: 0px;
   margin: auto;
+  margin-top: 26px;
   text-align: center;
+  max-width: 100%;
+  max-height: 300px;
 }
 .instagram-bar {
   margin: 0 auto;
@@ -8738,4 +8741,7 @@ a.badge:hover {
 #myCarousel img {
   max-width: 25%;
   max-height: 300px;
+}
+.header-image {
+  min-height: 300px;
 }
