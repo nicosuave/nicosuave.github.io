@@ -995,6 +995,9 @@
   .nav-collapse .nav > li > .dropdown-menu:after {
     display: none;
   }
+  .social li {
+    display: none;
+  }
   .nav-collapse .navbar-form,
   .nav-collapse .navbar-search {
     float: none;
