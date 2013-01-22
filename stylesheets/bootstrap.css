@@ -8695,14 +8695,12 @@ a.badge:hover {
   font-weight: 300;
 }
 .cover-image {
-  height: 300px;
   padding: 0px;
   margin: auto;
   text-align: center;
 }
 .instagram-bar {
-  width: 1200px;
-  margin: auto;
+  margin: 0 auto;
   font-size: 0;
 }
 .instagram-bar li {
@@ -8733,4 +8731,11 @@ a.badge:hover {
   background: #6c71c4;
   /* Firefox */
 
+}
+#myCarousel {
+  max-width: 100%;
+}
+#myCarousel img {
+  max-width: 25%;
+  max-height: 300px;
 }
