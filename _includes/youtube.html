@@ -1,0 +1,10 @@
+{% if page.video_url %}
+<div class="flex-video">
+  <iframe 
+    class="embed" 
+    src="{{ page.video_url }}?&amp;rel=0&amp;showinfo=0&amp;autohide=1&amp;hd=1&amp;wmode=transparent" 
+    frameborder="0" 
+    allowfullscreen="true"
+    ></iframe>
+</div>
+{% endif %}

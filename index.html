@@ -9,6 +9,18 @@ title: Nico Ritschel
    <p class="author">
     <span class="date">{{post.date | date_to_long_string}}</span>
   </p>
+    {% if post.video_url != null %}
+    <div class="flex-video widescreen">
+      <iframe 
+        class="embed" 
+        src="{{ post.video_url }}?&amp;rel=0&amp;showinfo=0&amp;autohide=1&amp;hd=1&amp;wmode=transparent" 
+        frameborder="0" 
+        allowfullscreen="true"
+        ></iframe>
+    </div>
+    {% elsif post.header_image != null %}
+      <div class="hero-unit cover-image header-image" style="background-image:url({{ post.header_image }});">&nbsp;</div>  
+    {% endif %}          
   <div class="content">
     {{ post.content }}
   </div>
