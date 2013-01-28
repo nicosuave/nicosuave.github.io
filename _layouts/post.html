@@ -2,6 +2,17 @@
 layout: default
 ---
 <h2>{{ page.title }}</h2>
+{% if page.video_url %}
+<div class="video">
+  <iframe 
+    class="yt-embed" 
+    src="{{ page.video_url }}?&amp;rel=0&amp;showinfo=0&amp;autohide=1&amp;hd=1&amp;wmode=transparent" 
+    frameborder="0" 
+    style="width:560px;height:315px;margin:0 auto;"
+    allowfullscreen="true"
+    ></iframe>
+</div>
+{% endif %}
 <p class="author">
   <span class="date">{{page.date | date_to_long_string}}</span>
 </p>
