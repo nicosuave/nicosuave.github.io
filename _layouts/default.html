@@ -44,6 +44,8 @@
 
     {% if page.header_image == null %}
       {% include instagram.html %}
+    {% elsif page.header_image == 'none'  %}
+      &nbsp;
     {% else %}
       {% include custom_header.html %}
     {% endif %}

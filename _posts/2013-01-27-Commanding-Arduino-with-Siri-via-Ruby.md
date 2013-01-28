@@ -4,7 +4,7 @@ date: 2013-01-27 19:00:00
 layout: post
 tags:
  - Projects
-<!-- header_image: /images/headers/arduino.jpg -->
+header_image: none
 video_url: http://www.youtube.com/embed/l1QvFahhBUU
 ---
 
