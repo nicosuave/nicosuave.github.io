@@ -12,6 +12,8 @@ Your iPhone can't make your toast, eh? Thanks to a SiriProxy plugin that I wrote
 
 While the above video is a simple proof of concept merely controlling the Arduino's onboard LED, consider my plugin to be a boilerplate for your Arduino & Siri based home automation projects.
 
+In order to actually control your toaster, you would need to attach a relay to your Arduino.
+
 For quick reference, I posted the contents of my basic plugin so you can see how simple it is to get started. Jumpstart Labs has a nice [guide](http://tutorials.jumpstartlab.com/projects/arduino/introducing_arduino.html) on getting started with Dino. Controlling an LED is not very exciting, sure. You get to be the creative one :)
 
     class SiriProxy::Plugin::Arduino < SiriProxy::Plugin
