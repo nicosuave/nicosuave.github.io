@@ -8,7 +8,7 @@ tags:
 video_url: http://www.youtube.com/embed/l1QvFahhBUU
 ---
 
-Your iPhone can't make your toast, eh? Thanks to a SiriProxy plugin, [siriproxy-arduino](http://github.com/nicoritschel/siriproxy-arduino.git), maybe it can. Austinbv from Pivotal Labs provided the code for the 'dino' gem, which allows for simple control of Arduino via ruby.
+Your iPhone can't make your toast, eh? Thanks to a SiriProxy plugin that I wrote this weekend (hooray for weekend projects) [siriproxy-arduino](http://github.com/nicoritschel/siriproxy-arduino.git), maybe it can. Austinbv from Pivotal Labs provided the code for the 'dino' gem, which allows for simple control of Arduino via Ruby.
 
 While the above video is a simple proof of concept merely controlling the Arduino's onboard LED, consider my plugin to be a boilerplate for your Arduino & Siri based home automation projects.
 
