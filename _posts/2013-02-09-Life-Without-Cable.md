@@ -4,7 +4,6 @@ date: 2013-02-09 12:00:00
 layout: post
 tags:
  - Life
-header_image: none
 ---
 
 I haven't had cable tv in almost four years. I must admit, I don't miss it at all. I can watch most shows via streaming services (now usually the next day, instead of the next week). 
