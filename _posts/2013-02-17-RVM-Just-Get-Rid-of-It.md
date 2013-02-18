@@ -12,7 +12,7 @@ Recently, I have been configuring a Jenkins server to run our builds at work. We
 
 With proper bundler user, gemsets are unnessecary. Instead, define the gems required for a project in the project's Gemfile. Then, run bundle install. rbenv is easily configured(see below!) to install gems to a projects' vendor directory instead the default system gems. 
 
-Each application will be confined to only using gems defined in its Gemfile. However, please remember to refrain from avoiding gems with the `gem install`, except for global gems. The only gem that you should install manually is Bundler.
+Each application will be confined to only using gems defined in its Gemfile. However, please remember to refrain from installing gems with the `gem install`, except for global gems. The only gem that you should install manually is Bundler.
 
 ## Replace RVM with rbenv
 
