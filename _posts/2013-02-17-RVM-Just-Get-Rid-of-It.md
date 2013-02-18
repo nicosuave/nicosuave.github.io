@@ -41,3 +41,5 @@ Each application will be confined to only using gems defined in its Gemfile. How
 `fi`
 8. `source ~/.bash_profile`  
 9. Enjoy life without gemsets!  
+
+Special thanks to [Harry Marr](http://hmarr.com/2012/nov/08/rubies-and-bundles/) for his directions that inspired this post.
