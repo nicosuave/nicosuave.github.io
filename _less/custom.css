@@ -1,0 +1,50 @@
+.social a {
+  font-size: 12px;
+  font-weight: 800;
+}
+.topics a {
+  font-weight: 300;
+  font-size: 15px;
+}
+.brand a {
+  font-weight: 300;
+}
+.cover-image {
+  height: 180px;
+  padding-top: 44px;
+  padding-bottom: 34px;
+}
+.instagram-bar {
+  width: 800px;
+  margin: auto;
+  font-size: 0;
+}
+.instagram-bar li {
+  display: inline;
+  font-size: 14px;
+}
+.first-name {
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.last-name {
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.content-area {
+  line-height: 34px;
+  font-size: 20px;
+}
+.tail {
+  padding-bottom: 40px;
+}
+::selection {
+  background: #ffb7b7;
+  /* Safari */
+
+}
+::-moz-selection {
+  background: #ffb7b7;
+  /* Firefox */
+
+}

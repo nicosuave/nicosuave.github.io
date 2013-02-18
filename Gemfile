@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'guard'
+gem 'guard-less'
+gem 'jekyll'
+gem 'RedCloth'
+gem 'rb-fsevent', '~> 0.9.1'

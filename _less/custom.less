@@ -1,0 +1,104 @@
+.social a{
+	font-size: 12px;
+	font-weight:800;
+}
+
+.topics a{
+	font-weight: 300;
+	font-size: 15px;
+}
+
+.brand a{
+	font-weight: 300;
+}
+
+.cover-image {
+	padding: 0px;
+	margin: auto;
+	margin-top: @navbarHeight;
+	text-align: center;
+	max-width: 100%;
+	// height:300px;
+	max-height: 300px;	
+}
+
+.instagram-bar {
+	margin: 0 auto;
+	font-size: 0;
+}
+
+.instagram-bar li{
+	display: inline;
+	font-size: 14px;
+}
+.first-name {
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.last-name {
+	font-weight: 300;
+	text-transform: uppercase;	
+}
+
+.content-area {
+	line-height: 34px;
+	font-size: 20px;
+}
+
+.tail{
+	padding-bottom: 40px;
+}
+
+// Custom text highlighting
+::selection {
+	background: @violet; /* Safari */
+	}
+::-moz-selection {
+	background: @violet; /* Firefox */
+}
+
+#myCarousel{
+	// width: 1200px;
+	max-width: 100%;
+}
+
+#myCarousel img{
+	// width: 300px;	
+	max-width: 100%/4;	
+	max-height: 300px;
+}
+
+  .header-image{
+    min-height: 300px;
+  }
+
+.flex-video {
+  position: relative;
+  padding-top: 25px;
+  padding-bottom: 67.5%;
+  height: 0;
+  margin-bottom: 16px;
+  overflow: hidden;
+}
+ 
+.flex-video.widescreen { padding-bottom: 52.25%; }
+.flex-video.vimeo { padding-top: 0; }
+ 
+.flex-video iframe,
+.flex-video object,
+.flex-video embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+@media only screen and (max-device-width: 800px), only screen and (device-width: 1024px) and (device-height: 600px), only screen and (width: 1280px) and (orientation: landscape), only screen and (device-width: 800px), only screen and (max-width: 767px) {
+  .flex-video { padding-top: 0; }
+}  
+
+.content{
+	padding-top: 25px;
+	padding-bottom:50px;
+}
