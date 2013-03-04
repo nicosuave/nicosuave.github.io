@@ -1,6 +1,6 @@
 ---
 title: Keep it Static, Stupid 
-date: 2013-02-17 17:00:00
+date: 2013-03-01 17:00:00
 layout: post
 ---
 
