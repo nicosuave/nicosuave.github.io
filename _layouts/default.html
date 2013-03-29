@@ -42,7 +42,7 @@
       </div>
     </div>
 
-    {% if page.header_image == null %}
+    {% if page.header_image == null or page.title == 'Nico Ritschel' %}
       {% include instagram.html %}
     {% elsif page.header_image == 'none'  %}
       &nbsp;
