@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Nico Ritschel
+header_image: none
 ---
 <h2>{{ page.title }}</h2>
 
