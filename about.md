@@ -5,7 +5,7 @@ header_image: none
 ---
 <h2>{{ page.title }}</h2>
 
-I'm a software developer. I study Informatics with a specialization in Software Engineering at UC Irvine. I'm a strong believer in no frills, to-the-point user experiences.
+Hi, I'm Nico. I'm a software developer. I study Informatics with a specialization in Software Engineering at UC Irvine. I'm a strong believer in no frills, to-the-point user experiences.
 
 I enjoy trying new India Pale Ales, cooking, capsaicin, being outdoors, and watching live music. I probably spend more time than is healthy on my laptop.
 
@@ -15,7 +15,7 @@ My résumé is available for [download](/pdfs/resume.pdf "Résumé, Nico Ritsche
 
 You can find me elsewhere:
 
-[Github](https://github.com/nicoritschel)
+[Github](https://github.com/nicosuave)
 
 [Twitter](https://twitter.com/nicoritschel)
 
