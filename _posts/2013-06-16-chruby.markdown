@@ -1,0 +1,36 @@
+---
+layout: post
+title: chruby - Minimal ruby version switching
+date: 2013-06-16 9:00:00
+layout: post
+tags:
+  - ruby
+---
+
+So, like many other compadres in the ruby world, I too have simplified my ruby version-switching, using the kick-ass [chruby](https://github.com/postmodern/chruby), written in less than 90 lines of code. I have been working on setting up a development environment for our interns here at [Acorns](http://acorns.com), and wished to avoid submitting them to the nonsense that is RVM (since bundler takes care of 'gemsets' in the first place). 
+
+I've been using rbenv recently, with great results. However, I think that I like chruby even more, if only for its minimalism.
+
+##Why would I use chruby?
+
+* It's straight-up simple. 
+* No gemsets
+* No shims
+
+1 caveat: chruby does not assist in installing new versions of ruby. You'll need a tool like ruby-install to help manage this. (Instructions included below)
+
+##How do I get started?
+* Install chruby with homebrew
+`brew install chruby`
+* Add the below line to your .bash_profile
+`source /usr/local/share/chruby/chruby.sh`
+* (Optionally) add the below line to your profile in order to automatically look for a .ruby-version file and auto-switch
+`source /usr/local/share/chruby/auto.sh`
+* Install ruby-install to help manage ruby installations.
+`brew install https://raw.github.com/postmodern/ruby-install/master/homebrew/ruby-install.rb`
+* Install the latest version of Ruby 1.9 (ruby-install will handle patch numbers for you)
+`ruby-install ruby 1.9`
+* Set a default ruby
+`chruby ruby-1.9`
+
+How basic is that? Keep in mind, you'll need to reinstall system wide gems like bundler to dive right into your projects.
