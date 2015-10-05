@@ -14,17 +14,10 @@ exclude:     [vendor]
 future:      true
 lsi:         false
 pygments:    false
-markdown:    maruku
+markdown:    kramdown
 permalink:   /:title.html
 
 paginate: 10
-
-maruku:
-  use_tex:    false
-  use_divs:   false
-  png_engine: blahtex
-  png_dir:    images/latex
-  png_url:    /images/latex
 
 rdiscount:
   extensions: []
