@@ -3,12 +3,12 @@
   <head>
   <meta charset='utf-8'>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.css" media="screen" />
-  <link href="/stylesheets/responsive.css" rel="stylesheet" type="text/css" media="screen" />  
+  <link href="/stylesheets/responsive.css" rel="stylesheet" type="text/css" media="screen" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href='http://fonts.googleapis.com/css?family=Raleway:100,300,400,500,600' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>  
+  <link href='http://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
    <!--[if lt IE 9]>
   <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
@@ -17,33 +17,33 @@
   <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
-        <div class="container"> 
+        <div class="container">
           <a href="/" class="brand"><span class="first-name">Nico</span><span class="last-name">Ritschel</span></a>
           <ul class="nav social">
             <li><a href="http://github.com/suave"><span class="icon-github"></span></a></li>
             <li><a href="http://www.linkedin.com/profile/view?id=93588951"><span class="icon-linkedin-sign"></span></a></li>
-            <li><a href="http://twitter.com/nicoritschel"><span class="icon-twitter"></span></a></li> 
-          </ul>       
+            <li><a href="http://twitter.com/nicoritschel"><span class="icon-twitter"></span></a></li>
+          </ul>
           <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
-          </a>                    
+          </a>
           <div class="nav-collapse collapse">
             <ul class="nav topics">
-              <li><a href="/about.html">About</a></li>                            
+              <li><a href="/about.html">About</a></li>
              <!-- <li><a href="#projects">Projects</a></li>
               <li><a href="#notes">Notes</a></li>
               <li><a href="#fun">Fun</a></li>-->
-            </ul>         
-          </div>            
-                        
+            </ul>
+          </div>
+
         </div>
       </div>
     </div>
-    {% if page.header_image == null %}
-      {% include instagram.html %}
-    {% elsif page.header_image == 'none'  %}
+    <!-- {% if page.header_image == null %}
+      {% include instagram.html %} -->
+    {% if page.header_image == 'none'  %}
       &nbsp;
     {% else %}
       {% include custom_header.html %}
@@ -54,7 +54,7 @@
         <div class="span12">
           {{ content }}
         </div>
-      </div>       
+      </div>
       <div class="row tail">
         <hr>
         <div class="span4">
