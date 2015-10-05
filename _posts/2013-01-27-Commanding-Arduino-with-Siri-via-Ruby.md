@@ -4,7 +4,6 @@ date: 2013-01-27 19:00:00
 layout: post
 tags:
  - Projects
-header_image: none
 video_url: http://www.youtube.com/embed/Ay1-9cJA8Nw
 ---
 
@@ -29,7 +28,7 @@ For quick reference, I posted the contents of my basic plugin so you can see how
 
       listen_for /light(s)? off/i do
         @led.send :off
-        say "Light off" 
+        say "Light off"
         request_completed #always complete your request! Otherwise the phone will "spin" at the user!
       end
     end
